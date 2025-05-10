@@ -1,0 +1,8 @@
+python-docx
+moviepy
+google-generativeai
+dashscope
+requests
+beautifulsoup4
+wikipedia-api
+openai>=1.0.0 # Ensure modern openai client
