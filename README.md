@@ -4,7 +4,7 @@ MEduKG is a multimodal educational knowledge graph dataset that covers natural s
 This repository contains the models and datasets described in our paper, `MEduKG: Multimodal Educational Knowledge Graph Construction via Large Language Models`
 
 #### Dataset and Models
-* `Dataset`: All information about MEduKG data is at xxx, including extracted raw data from MOOCs and generated MEduKG.
+* `Dataset`: All information about MEduKG data is at https://doi.org/10.5281/zenodo.15378631, including extracted raw data from MOOCs and generated MEduKG.
 * `Code`: All the code referenced in the paper is available in this repository. Additionally, we have released a Python library for automatically constructing multimodal educational knowledge graphs at [MEduKG-Python-Library](https://github.com/AI-BNU-TEAMKG/MEduKG-Python-Library)
 #### Folder Structure
 * `Dataprocess`: This folder contains scripts and utilities for data preprocessing. It includes functionalities for cleaning, transforming, and preparing raw datasets for further analysis.
