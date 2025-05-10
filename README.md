@@ -18,4 +18,5 @@ This repository contains the models and datasets described in our paper, `MEduKG
 
 Contact
 If you have any questions or feedback about the MEduKG dataset, please feel free to contact us at ethanlu[at]mail.bnu.edu.cn
+
 Thank you for being so interested in MEduKG!
