@@ -5,7 +5,7 @@ This repository contains the models and datasets described in our paper, `MEduKG
 
 #### Dataset and Models
 * `Dataset`: All information about MEduKG data is at xxx, including extracted raw data from MOOCs and generated MEduKG.
-* `Code`: All the code in the paper is in this repository, and we have also released a Python library for automatically building multimodal educational knowledge graphs.
+* `Code`: All the code referenced in the paper is available in this repository. Additionally, we have released a Python library for automatically constructing multimodal educational knowledge graphs.
 #### Folder Structure
 * `Dataprocess`: This folder contains scripts and utilities for data preprocessing. It includes functionalities for cleaning, transforming, and preparing raw datasets for further analysis.
 * `ExtractMultimodalConcepts`: This folder contains code for extracting concepts.
