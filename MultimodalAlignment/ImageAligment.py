@@ -27,7 +27,7 @@ def imageAnalysis(image_path: str, subject: str, concepts: list ,model="gpt-4o")
         3. Deduplication Protocol:
         Priority: C4 > C3 > C2 > C1
         - Remove duplicates ONLY for identical terms
-        - Preserve hierarchical terms (e.g., keep both "上皮组织" and "小肠上皮细胞")
+        - Preserve hierarchical terms (e.g., keep both "" and "")
         4. Output Decision:
         - If any valid terms remain: List ALL in bullet format
         - If completely empty: Output "none"
