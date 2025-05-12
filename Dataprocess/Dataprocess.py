@@ -212,7 +212,7 @@ def remove_blank_lines_from_txt(file_path: str) -> None:
    
 if __name__ == "__main__":
 
-    url_list = 
+    url_list = ""
     
     # # TODO transfer the video to audio
     for item in url_list:
@@ -222,23 +222,23 @@ if __name__ == "__main__":
 
     #TODO Obtain the time-stamped content from the Word and employ gemini to re-segment the content
     #Before this step, we need to manually convert the audio to text using the online tool / api
-    for item in url_list:
-         docx_files = get_filenames_recursive(item, '.docx')
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            executor.map(extract_timestamp_conversation, docx_files)
-     for item in url_list:
-         txt_files = get_filenames_recursive(item, '.txt')
-        content = LLM_SemanticIntegration(txt_files, LLM_cnt)
-    for item in url_list:
-        txt_files = get_filenames_recursive(item, '.txt')
-        for file in txt_files:
-           remove_blank_lines_from_txt(file)
+    # for item in url_list:
+    #      docx_files = get_filenames_recursive(item, '.docx')
+    #     with concurrent.futures.ThreadPoolExecutor() as executor:
+    #         executor.map(extract_timestamp_conversation, docx_files)
+    #  for item in url_list:
+    #      txt_files = get_filenames_recursive(item, '.txt')
+    #     content = LLM_SemanticIntegration(txt_files, LLM_cnt)
+    # for item in url_list:
+    #     txt_files = get_filenames_recursive(item, '.txt')
+    #     for file in txt_files:
+    #        remove_blank_lines_from_txt(file)
  
-    # TODO Trim the video based on the timestamps
-    for item in url_list:
-        videos = get_filenames_recursive(item, '.mp4')
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            executor.map(clipVideo, videos)
+    # # TODO Trim the video based on the timestamps
+    # for item in url_list:
+    #     videos = get_filenames_recursive(item, '.mp4')
+    #     with concurrent.futures.ThreadPoolExecutor() as executor:
+    #         executor.map(clipVideo, videos)
 
 
 
