@@ -1,9 +1,4 @@
-"""
-KnowledgePoint ID
-KnowledgePoint
-Related KnowledgePoint ID
-Exercise ID
-"""
+
 import json
 def readjson(filePath:str) -> list:
     raw_data = []
