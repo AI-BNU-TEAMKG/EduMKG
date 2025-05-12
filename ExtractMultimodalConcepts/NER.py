@@ -25,16 +25,7 @@ def process_directory(directory_path: str, models: list, subject: str, k: int) -
  
         candidate = extractConcepts(txt_file, models, subject,allEntity,k) 
         
-    # expand concepts and link explanations
-    #results = expandExplanations(subject)
-    
-    # with open(f"{subject}", 'w', encoding='utf-8') as f: 
-    #     for item in results:
-    #         f.write(item[0])
-    #         f.write("\t")
-    #         f.write(item[1])
-    #         f.write("\n")
-    # f.close()
+
                   
 def extractConcepts(filePtah: str,models: list, subject: str, allEntity: set, k=3) -> list:
 
