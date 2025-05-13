@@ -4,7 +4,7 @@ EduMKG is a multimodal educational knowledge graph dataset that covers natural s
 This repository contains the models and datasets described in our paper, `EduMKG: A Multimodal Knowledge Graph for Education with Text,  Image, Video and Audio`
 
 #### Dataset and Models
-* `Dataset`: All information about EduMKG data is at https://doi.org/10.5281/zenodo.15378631, including extracted raw data from MOOCs and generated EduMKG.
+* `Dataset`: All information about EduMKG data is at https://zenodo.org/records/15386565, including extracted raw data from MOOCs and generated EduMKG.
 * `Code`: All the code referenced in the paper is available in this repository. Additionally, we have released a Python library for automatically constructing multimodal educational knowledge graphs at [EduMKG-Python-Library](https://github.com/AI-BNU-TEAMKG/EduMKG-Python-Library)
 #### Folder Structure
 * `Dataprocess`: This folder contains scripts and utilities for data preprocessing. It includes functionalities for cleaning, transforming, and preparing raw datasets for further analysis.
