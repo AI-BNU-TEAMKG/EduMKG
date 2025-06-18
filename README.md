@@ -11,14 +11,14 @@ This repository contains the models and datasets described in our paper, `EduMKG
 ##### Data Definition
 | Data Type            | Definition                                                                                 | Mathematical Formalization                                |
 |----------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| Knowledge Point      | A fact within a specific subject, potentially linked to other concepts and knowledge points. | \( KP = \{ id, name, associated\_concepts, associated\_knowledge points \} \)        |
-| Multimodal Concept   | A concept represented by data from four distinct modalities.                              | \( MC = \{ id, name, T, I, V, A, associated\_knowledge\_points \} \), where \( T,I,V,A \) represents a specific modality's data. |
-| Subject              | A high-level category that groups related knowledge points.                               | \( S = \{ id, name, associated\_knowledge\_points \} \) |
-| Explanation          | A textual description providing detail or clarification for a concept.                    | \( T = \{ id, text\_content, associated\_concepts\} \)                        |
-| Image                | A visual representation in PNG format associated with a concept.                         | \( I = \{ id, name,associated\_concepts \} \)                           |
-| Video                | A video representation with a URL link associated with a concept.                        | \( V = \{ id, URL,associated\_concepts \} \)                                  |
-| Audio                | An audio explanation in MP3 format associated with a concept.                            | \( A = \{ id, name, associated\_concepts \} \)                           |
-| Exercise             | A task or problem with a URL link for practice or assessment related to a concept.        | \( Ex = \{ id, url, associated\_knowledge\_point \} \)    |
+| Knowledge Point      | A fact within a specific subject, potentially linked to other concepts and knowledge points. | KP = \{ id, name, associated\_concepts, associated\_knowledge points \}        |
+| Multimodal Concept   | A concept represented by data from four distinct modalities.                              | MC = \{ id, name, T, I, V, A, associated\_knowledge\_points \} \), where \( T,I,V,A \) represents a specific modality's data. |
+| Subject              | A high-level category that groups related knowledge points.                               | S = \{ id, name, associated\_knowledge\_points \}  |
+| Explanation          | A textual description providing detail or clarification for a concept.                    |  T = \{ id, text\_content, associated\_concepts\}                         |
+| Image                | A visual representation in PNG format associated with a concept.                         |  I = \{ id, name,associated\_concepts \}                            |
+| Video                | A video representation with a URL link associated with a concept.                        |  V = \{ id, URL,associated\_concepts \}                                   |
+| Audio                | An audio explanation in MP3 format associated with a concept.                            |  A = \{ id, name, associated\_concepts \}                           |
+| Exercise             | A task or problem with a URL link for practice or assessment related to a concept.        | Ex = \{ id, url, associated\_knowledge\_point \}    |
 ##### SPARQL Endpoint Url and Usage Instructions
 
 
