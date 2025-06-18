@@ -11,7 +11,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 ##### Data Definition
 | Data Type            | Definition                                                                                 | Mathematical Formalization                                |
 |----------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| Knowledge Point      | A fact within a specific subject, potentially linked to other concepts and knowledge points. | KP = \{ id, name, associated\_concepts, associated\_knowledge points \}        |
+| Knowledge Point      | The core facts, skills, or principles of a specific discipline, potentially linked to other concepts and Knowledge Points. | KP = \{ id, name, associated\_concepts, associated\_knowledge points \}        |
 | Multimodal Concept   | A concept represented by data from four distinct modalities.                              | MC = \{ id, name, T, I, V, A, associated\_knowledge\_points \}, where \( T,I,V,A \) represents a specific modality's data. |
 | Subject              | A high-level category that groups related knowledge points.                               | S = \{ id, name, associated\_knowledge\_points \}  |
 | Explanation          | A textual description providing detail or clarification for a concept.                    |  T = \{ id, text\_content, associated\_concepts\}                         |
