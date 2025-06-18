@@ -3,6 +3,26 @@ EduMKG is a multimodal educational knowledge graph dataset that covers natural s
 
 This repository contains the models and datasets described in our paper, `EduMKG: A Multimodal Knowledge Graph for Education with Text,  Image, Video and Audio`
 
+#### 🎯🎯🎯Recent Update for EduMKG 
+**We sincerely thank all the reviewers for their valuable guidance on our work ！！！**
+
+##### EduMKG ontology
+
+##### Data Definition
+| Data Type            | Definition                                                                                 | Mathematical Formalization                                |
+|----------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Knowledge Point      | A fact within a specific subject, potentially linked to other concepts and knowledge points. | \( KP = \{ id, name, associated\_concepts, associated\_knowledge points \} \)        |
+| Multimodal Concept   | A concept represented by data from four distinct modalities.                              | \( MC = \{ id, name, T, I, V, A, associated\_knowledge\_points \} \), where \( T,I,V,A \) represents a specific modality's data. |
+| Subject              | A high-level category that groups related knowledge points.                               | \( S = \{ id, name, associated\_knowledge\_points \} \) |
+| Explanation          | A textual description providing detail or clarification for a concept.                    | \( T = \{ id, text\_content, associated\_concepts\} \)                        |
+| Image                | A visual representation in PNG format associated with a concept.                         | \( I = \{ id, name,associated\_concepts \} \)                           |
+| Video                | A video representation with a URL link associated with a concept.                        | \( V = \{ id, URL,associated\_concepts \} \)                                  |
+| Audio                | An audio explanation in MP3 format associated with a concept.                            | \( A = \{ id, name, associated\_concepts \} \)                           |
+| Exercise             | A task or problem with a URL link for practice or assessment related to a concept.        | \( Ex = \{ id, url, associated\_knowledge\_point \} \)    |
+##### SPARQL Endpoint Url and Usage Instructions
+
+
+
 #### Dataset and Models
 * `Dataset`: All information about EduMKG is at https://zenodo.org/records/15386565, including extracted raw data from MOOCs and generated EduMKG.
 * `Code`: All the code referenced in the paper is available in this repository. Additionally, we have released a Python library for automatically constructing multimodal educational knowledge graphs at [EduMKG-Python-Library](https://github.com/AI-BNU-TEAMKG/EduMKG-Python-Library)
