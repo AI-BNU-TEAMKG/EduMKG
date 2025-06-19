@@ -11,6 +11,51 @@ This repository contains the models and datasets described in our paper, `EduMKG
 4. We have released **a SPARQL endpoint** and provided **basic usage examples**.
 
 ##### EduMKG ontology
+![绘图1](https://github.com/user-attachments/assets/2e87bab1-b751-4ce0-992e-d3b86ed4218d)
+
+1. **Top Level**:  
+   - **Subject**: The highest-level abstraction that encapsulates a domain of knowledge.
+   - Relation: `Subject relatedTo KnowledgePoint`
+     - A subject is connected to multiple high-level **KnowledgePoints**.
+
+2. **High-Mid Level**:  
+   - **KnowledgePoint (High-Level)**: Represents a core topic or subdomain within the subject.
+   - Relation: `KnowledgePoint relatedTo KnowledgePoint`
+     - High-level KnowledgePoints form hierarchical or associative relations with other KnowledgePoints, providing a structured flow of knowledge.
+
+3. **Low-Mid Level**:  
+   - **KnowledgePoint (Low-Level)**: Refines KnowledgePoints into more specific subtopics or granular units of learning.
+   - Relations:
+     - `KnowledgePoint relatedTo KnowledgePoint`
+        - Low-level KnowledgePoints are interrelated, enabling cross-references.
+     - `KnowledgePoint hasAnExercise Exercise`
+        - A KnowledgePoint can be associated with an **Exercise**, which provides practice and assessment tasks.
+     - `Exercise isAnExerciseOf KnowledgePoint`
+        - Exercises are explicitly linked back to their corresponding KnowledgePoint.
+
+4. **Low Level**:  
+   - **Concept**: Represents the foundational ideas or principles underlying a KnowledgePoint.
+   - Relations:
+     - `KnowledgePoint relatedTo Concept`
+       - KnowledgePoints are explained or supported by associated **Concepts**.
+     - `Concept relatedTo KnowledgePoint`
+       - Concepts can connect back to KnowledgePoints, forming bidirectional relationships.
+     - `Concept hasAnExplanation Explanation`
+       - A Concept can have explanatory resources to improve understanding.
+     - `Concept hasA[Video|Audio|Image|Explanation]`
+       - Concepts may be represented through multimedia formats, including videos, audios, images, or textual descriptions.
+
+5. **Explanation Resources**:  
+   - Multimedia types such as **Video**, **Audio**, and **Image** serve as specific forms of explanations.
+   - Relations:  
+     - `Explanation isAnExplanationOf KnowledgePoint`  
+       - Explanations provide additional detail for the KnowledgePoint.  
+     - Specific multimedia format relations:    
+       - `Video isAVideoOf KnowledgePoint`  
+       - `Audio isAnAudioOf KnowledgePoint`  
+       - `Image isAnImageOf KnowledgePoint`  
+
+This hierarchical structure aims to formalize the relationships between concepts, knowledge points, exercises, and explanation resources, enabling a scalable and reusable ontology for knowledge representation in various domains.
 
 ##### Data Definition
 | Data Type            | Definition                                                                                 | Mathematical Formalization                                |
