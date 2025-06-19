@@ -36,7 +36,7 @@ pip install rdflib
 python rdf.py  
 ```
 3. Accessing the SPARQL Endpoint and Performing Queries: We provide an example for reference.  
-* Access the \url{Apache Jena Fuseki UI}.  
+* Access the [Apache Jena Fuseki UI](http://103.36.221.18:46469/#/).  
 * Enter the username and password: `user`, `userPassword`.  
 * Example usage:
   
