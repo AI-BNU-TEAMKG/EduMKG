@@ -43,6 +43,7 @@ python rdf.py
   Example 1
   ```sparql
   # Randomly select 10 sets of "subject-predicate-object" triplet data from the database and display them.
+  PREFIX ex: <http://v1.edumkg.org/
   SELECT ?subject ?predicate ?object
   WHERE {
   ?subject ?predicate ?object
