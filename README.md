@@ -11,7 +11,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 4. We have released **a SPARQL endpoint** and provided **basic usage examples**.
 
 ##### EduMKG ontology
-![绘图1](https://github.com/user-attachments/assets/2e87bab1-b751-4ce0-992e-d3b86ed4218d)
+![ontology](https://github.com/user-attachments/assets/8e768d4d-f968-4cbe-84ca-6b14fccbe26c)
 
 1. **Top Level**:  
    - **Subject**: The highest-level abstraction that encapsulates a domain of knowledge.
