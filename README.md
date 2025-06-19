@@ -60,9 +60,15 @@ python rdf.py
    FILTER(CONTAINS(STR(?concept), ENCODE_FOR_URI("细胞")))
    }
    ```
+#### Future Work
+In the future, we will update the following aspects:  
+1. Expand the coverage of the dataset to include a broader range of subjects and educational stages, thereby improving its applicability and generalizability.  
+2. Provide educational application research compatible with EduMKG, such as prerequisite knowledge discovery and personalized education system recommendations.  
+3. Explore more efficient model designs to refine the proposed methods and broaden their practical applications in educational contexts.
+   
+We look forward to the research community further exploring and utilizing this dataset to advance education and applied research related to multimodal educational knowledge graphs.
 
-
-
+---
 #### Dataset and Models
 * `Dataset`: All information about EduMKG is at https://zenodo.org/records/15386565, including extracted raw data from MOOCs and generated EduMKG.
 * `Code`: All the code referenced in the paper is available in this repository. Additionally, we have released a Python library for automatically constructing multimodal educational knowledge graphs at [EduMKG-Python-Library](https://github.com/AI-BNU-TEAMKG/EduMKG-Python-Library)
