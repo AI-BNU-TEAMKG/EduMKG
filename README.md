@@ -38,7 +38,17 @@ python rdf.py
 3. Accessing the SPARQL Endpoint and Performing Queries: We provide an example for reference.  
 * Access the \url{Apache Jena Fuseki UI}.  
 * Enter the username and password: `user`, `userPassword`.  
-* Example usage:  
+* Example usage:
+  Example 1
+  ```sparql
+  # Randomly select 10 sets of "subject-predicate-object" triplet data from the database and display them.
+  SELECT ?subject ?predicate ?object
+  WHERE {
+  ?subject ?predicate ?object
+  }
+  LIMIT 10
+  ```
+  Example 2
    ```sparql
    # Query the concept of “细胞”corresponding to its explanation
    PREFIX ex: <http://v1.edumkg.org/
