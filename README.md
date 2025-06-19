@@ -39,6 +39,7 @@ python rdf.py
 * Access the \url{Apache Jena Fuseki UI}.  
 * Enter the username and password: `user`, `userPassword`.  
 * Example usage:
+  
   Example 1
   ```sparql
   # Randomly select 10 sets of "subject-predicate-object" triplet data from the database and display them.
