@@ -14,11 +14,11 @@ This repository contains the models and datasets described in our paper, `EduMKG
 | Knowledge Point      | The core facts, skills, or principles of a specific discipline, potentially linked to other concepts and Knowledge Points. | KP = \{ id, name, associated\_concepts, associated\_knowledge_points \}        |
 | Multimodal Concept   | A concept represented by data from four distinct modalities.                              | MC = \{ id, name, T, I, V, A, associated\_knowledge\_points \}|
 | Subject              | A high-level category that groups related knowledge points.                               | S = \{ id, name, associated\_knowledge\_points \}  |
-| Explanation          | A textual description providing detail or clarification for a concept.                    |  T = \{ id, text\_content, associated\_concepts\}                         |
-| Image                | A visual representation in PNG format associated with a concept.                         |  I = \{ id, name, associated\_concepts \}                            |
-| Video                | A video representation with a URL link associated with a concept.                        |  V = \{ id, URL, associated\_concepts \}                                   |
-| Audio                | An audio explanation in MP3 format associated with a concept.                            |  A = \{ id, name, associated\_concepts \}                           |
-| Exercise             | A task or problem with a URL link for practice or assessment related to a concept.        | Ex = \{ id, url, associated\_knowledge\_point \}    |
+| Explanation          | A textual description providing detail or clarification for concepts.                    |  T = \{ id, text\_content, associated\_concepts\}                         |
+| Image                | A visual representation in PNG format associated with concepts.                         |  I = \{ id, name, associated\_concepts \}                            |
+| Video                | A video representation with a URL associated with concepts.                        |  V = \{ id, URL, associated\_concepts \}                                   |
+| Audio                | An audio explanation in MP3 format associated with concepts.                            |  A = \{ id, name, associated\_concepts \}                           |
+| Exercise             | A task or problem with a URL associated with knowledge points.        | Ex = \{ id, url, associated\_knowledge\_point \}    |
 ##### SPARQL Endpoint Url and Usage Instructions
 
 
