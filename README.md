@@ -4,7 +4,7 @@ EduMKG is a multimodal educational knowledge graph dataset that covers natural s
 This repository contains the models and datasets described in our paper, `EduMKG: A Multimodal Knowledge Graph for Education with Text,  Image, Video and Audio`
 
 #### 🎯🎯🎯Recent Update for EduMKG 
-**We sincerely thank all the reviewers for their valuable guidance on our work ！！！**
+**We sincerely thank all the reviewers for their valuable guidance on our work**
 
 ##### EduMKG ontology
 
