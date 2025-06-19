@@ -34,12 +34,12 @@ pip install rdflib
 2. Configure the paths for the input JSON file and the output file, then run `rdf.py`:  
 ```python  
 python rdf.py  
-```sparql
+```
 3. Accessing the SPARQL Endpoint and Performing Queries: We provide an example for reference.  
 * Access the \url{Apache Jena Fuseki UI}.  
 * Enter the username and password: `user`, `userPassword`.  
 * Example usage:  
-   ```
+   ```sparql
    # Query the concept of “细胞”corresponding to its explanation
    PREFIX ex: <http://v1.edumkg.org/>
 SELECT ?explanation
