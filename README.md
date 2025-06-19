@@ -20,7 +20,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 | Subject              | A high-level category that groups related knowledge points.                               | S = \{ id, name, associated\_knowledge\_points \}  |
 | Explanation          | A textual description providing detail or clarification for concepts.                    |  T = \{ id, text\_content, associated\_concepts\}                         |
 | Image                | A visual representation in PNG format associated with concepts.                         |  I = \{ id, name, associated\_concepts \}                            |
-| Video                | A video representation with a URL associated with concepts.                        |  V = \{ id, URL, associated\_concepts \}                                   |
+| Video                | A video representation with a URL associated with concepts.                        |  V = \{ id, url, associated\_concepts \}                                   |
 | Audio                | An audio explanation in MP3 format associated with concepts.                            |  A = \{ id, name, associated\_concepts \}                           |
 | Exercise             | A task or problem with a URL associated with knowledge points.        | Ex = \{ id, url, associated\_knowledge\_point \}    |
 ##### SPARQL Endpoint Url and Usage Instructions
