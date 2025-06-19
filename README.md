@@ -41,14 +41,14 @@ python rdf.py
 * Example usage:  
    ```sparql
    # Query the concept of “细胞”corresponding to its explanation
-   PREFIX ex: <http://v1.edumkg.org/>
-SELECT ?explanation
-WHERE {
-  ?concept a ex:Concept .
-  ?concept ex:hasAnExplanation ?explanation .
-  FILTER(CONTAINS(STR(?concept), ENCODE_FOR_URI("细胞")))
-}
-```
+   PREFIX ex: <http://v1.edumkg.org/
+   SELECT ?explanation
+   WHERE {
+   ?concept a ex:Concept .
+   ?concept ex:hasAnExplanation ?explanation .
+   FILTER(CONTAINS(STR(?concept), ENCODE_FOR_URI("细胞")))
+   }
+   ```
 
 
 
