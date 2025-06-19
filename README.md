@@ -5,8 +5,8 @@ This repository contains the models and datasets described in our paper, `EduMKG
 
 #### 🎯🎯🎯Recent Update for EduMKG 
 **We sincerely thank all the reviewers for their valuable guidance on our work**
-1. We have open-sourced the RDF data of EduMKG on Zenodo at xxx.
-2. We have open-sourced an automation script for converting JSON  to RDF format in the RDF folder of this code repository (following IRI standards).
+1. We have open-sourced the RDF data of EduMKG (following IRI standards) on Zenodo at xxx.
+2. We have open-sourced an automation script for converting JSON  to RDF format in the RDF folder of this code repository.
 3. We have provided a detailed explanation of the ontology design and data definition of the knowledge graph.
 4. We have released a SPARQL endpoint and provided basic usage examples.
 
