@@ -19,12 +19,12 @@ This repository contains the models and datasets described in our paper, `EduMKG
      - A subject is connected to multiple high-level **KnowledgePoints**.
 
 2. **High-Mid Level**:  
-   - **KnowledgePoint (High-Level)**:  The core facts, skills, or principles of a specific subject
+   - **KnowledgePoint (High-Level)**:  Knowledge points are unique and structured knowledge units within a discipline, serving as key nodes connecting related concepts, exercises, and other knowledge points.
    - Relation: `KnowledgePoint relatedTo KnowledgePoint`
      - High-level KnowledgePoints form hierarchical or associative relations with other KnowledgePoints, providing a structured flow of knowledge.
 
 3. **Low-Mid Level**:  
-   - **KnowledgePoint (Low-Level)**: Refines KnowledgePoints into more specific subtopics or granular units of learning.
+   - **KnowledgePoint (Low-Level)**: Knowledge points are unique and structured knowledge units within a discipline, serving as key nodes connecting related concepts, exercises, and other knowledge points.
    - Relations:
      - `KnowledgePoint relatedTo KnowledgePoint`
         - Low-level KnowledgePoints are interrelated, enabling cross-references.
@@ -69,7 +69,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 ##### Data Definition
 | Data Type            | Definition                                                                                 | Mathematical Formalization                                |
 |----------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| Knowledge Point      | The core facts, skills, or principles of a specific discipline, potentially linked to other concepts and Knowledge Points. | KP = \{ id, name, associated\_concepts, associated\_knowledge_points \}        |
+| Knowledge Point      | TKnowledge points are unique and structured knowledge units within a discipline, serving as key nodes connecting related concepts, exercises, and other knowledge points. | KP = \{ id, name, associated\_concepts, associated\_knowledge_points \}        |
 | Multimodal Concept   | A concept represented by data from four distinct modalities.                              | MC = \{ id, name, T, I, V, A, associated\_knowledge\_points \}|
 | Subject              | A high-level category that groups related knowledge points.                               | S = \{ id, name, associated\_knowledge\_points \}  |
 | Explanation          | A textual description providing detail or clarification for concepts.                    |  T = \{ id, text\_content, associated\_concepts\}                         |
