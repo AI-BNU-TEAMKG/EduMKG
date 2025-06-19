@@ -5,6 +5,10 @@ This repository contains the models and datasets described in our paper, `EduMKG
 
 #### 🎯🎯🎯Recent Update for EduMKG 
 **We sincerely thank all the reviewers for their valuable guidance on our work**
+1. We have open-sourced the RDF data of EduMKG on Zenodo at xxx.
+2. We have open-sourced an automation script for converting JSON  to RDF format in the RDF folder of this code repository.
+3. We have provided a detailed explanation of the ontology design and data definition of the knowledge graph.
+4. We have released a SPARQL endpoint and provided basic usage examples.
 
 ##### EduMKG ontology
 
@@ -20,6 +24,31 @@ This repository contains the models and datasets described in our paper, `EduMKG
 | Audio                | An audio explanation in MP3 format associated with concepts.                            |  A = \{ id, name, associated\_concepts \}                           |
 | Exercise             | A task or problem with a URL associated with knowledge points.        | Ex = \{ id, url, associated\_knowledge\_point \}    |
 ##### SPARQL Endpoint Url and Usage Instructions
+We have open-sourced the RDF data of EduMKG on Zenodo and provided an automation script for converting JSON to RDF format in the RDF folder of this code repository. You can execute the script by following the steps below:
+
+1. Install `rdflib`  
+```shell  
+pip install rdflib  
+```  
+
+2. Configure the paths for the input JSON file and the output file, then run `rdf.py`:  
+```python  
+python rdf.py  
+```sparql
+3. Accessing the SPARQL Endpoint and Performing Queries: We provide an example for reference.  
+* Access the \url{Apache Jena Fuseki UI}.  
+* Enter the username and password: `user`, `userPassword`.  
+* Example usage:  
+   ```
+   # Query the concept of “细胞”corresponding to its explanation
+   PREFIX ex: <http://v1.edumkg.org/>
+SELECT ?explanation
+WHERE {
+  ?concept a ex:Concept .
+  ?concept ex:hasAnExplanation ?explanation .
+  FILTER(CONTAINS(STR(?concept), ENCODE_FOR_URI("细胞")))
+}
+```
 
 
 
