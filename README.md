@@ -69,6 +69,10 @@ In the future, we will update the following aspects:
    
 We look forward to the research community further exploring and utilizing this dataset to advance education and applied research related to multimodal educational knowledge graphs.
 
+#### Citation
+```
+Lu, T. (2025). EduMKG: A Multimodal Knowledge Graph for Education with Text, Image, Video and Audio [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15694552
+```
 ---
 #### Dataset and Models
 * `Dataset`: All information about EduMKG is at https://zenodo.org/records/15386565, including extracted raw data from MOOCs and generated EduMKG.
