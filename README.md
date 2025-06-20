@@ -15,16 +15,16 @@ This repository contains the models and datasets described in our paper, `EduMKG
 
 
 #### Validation Results for Alignment Quality
-| Modality       | Volunteer 1 | Volunteer 2 | Volunteer 3 | Volunteer 4 | Volunteer 5 | Average Score | Pass Rate (%) |
-|---------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------------|-------------------|
-| Text + Audio       | 89              | 92              | 88              | 91              | 90              | 90.0             | 98               |
-| Video              | 83              | 85              | 86              | 84              | 82              | 84.0             | 95               |
-| Image              | 87              | 89              | 88              | 90              | 88              | 88.4             | 97               |
+| Modality       | Volunteer 1 | Volunteer 2 | Volunteer 3 | Volunteer 4 | Volunteer 5 | Average Score | 
+|---------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------------|
+| Text + Audio       | 89              | 92              | 88              | 91              | 90              | 90.0             | 
+| Video              | 83              | 85              | 86              | 84              | 82              | 84.0             | 
+| Image              | 87              | 89              | 88              | 90              | 88              | 88.4             |
 
 Key Details:  
 - Volunteer Feedback: Each volunteer rated the alignment quality of multimodal concepts on a scale of 0 to 100.  
 - Average Score: Arithmetic mean of scores from five volunteers.  
-- Pass Rate: Percentage of concepts rated above a quality threshold 
+
 
 ##### SPARQL Endpoint Url and Usage Instructions
 We have open-sourced the RDF data of EduMKG on Zenodo and provided an automation script for converting JSON to RDF format in this code repository. You can execute the script by following the steps below:
