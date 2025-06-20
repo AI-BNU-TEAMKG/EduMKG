@@ -13,70 +13,18 @@ This repository contains the models and datasets described in our paper, `EduMKG
 #### EduMKG ontology
 ![ontology](https://github.com/user-attachments/assets/8e768d4d-f968-4cbe-84ca-6b14fccbe26c)
 
-1. **Top Level**:  
-   - **Subject**: The highest-level abstraction that encapsulates a domain of knowledge.
-   - Relation: `Subject relatedTo KnowledgePoint`
-     - A subject is connected to multiple high-level **KnowledgePoints**.
 
-2. **High-Mid Level**:  
-   - **KnowledgePoint (High-Level)**:  Knowledge points are structured knowledge units within a discipline, serving as key nodes connecting related concepts, exercises, and other knowledge points.
-   - Relation: `KnowledgePoint relatedTo KnowledgePoint`
-     - High-level KnowledgePoints form hierarchical or associative relations with other KnowledgePoints, providing a structured flow of knowledge.
+#### Validation Results for Alignment Quality
+| Modality       | Volunteer 1 | Volunteer 2 | Volunteer 3 | Volunteer 4 | Volunteer 5 | Average Score | Pass Rate (%) |
+|---------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------------|-------------------|
+| Text + Audio       | 89              | 92              | 88              | 91              | 90              | 90.0             | 98               |
+| Video              | 83              | 85              | 86              | 84              | 82              | 84.0             | 95               |
+| Image              | 87              | 89              | 88              | 90              | 88              | 88.4             | 97               |
+Key Details:  
+- Volunteer Feedback: Each volunteer rated the alignment quality of multimodal concepts on a scale of 0 to 100.  
+- Average Score: Arithmetic mean of scores from five volunteers.  
+- Pass Rate: Percentage of concepts rated above a quality threshold 
 
-3. **Low-Mid Level**:  
-   - **KnowledgePoint (Low-Level)**: Knowledge points are structured knowledge units within a discipline, serving as key nodes connecting related concepts, exercises, and other knowledge points.
-   - Relations:
-     - `KnowledgePoint relatedTo KnowledgePoint`
-        - Low-level KnowledgePoints are interrelated, enabling cross-references.
-     - `KnowledgePoint hasAnExercise Exercise`
-        - A KnowledgePoint can be associated with an **Exercise**, which provides practice and assessment tasks.
-     - `Exercise isAnExerciseOf KnowledgePoint`
-        - Exercises are explicitly linked back to their corresponding KnowledgePoint.
-
-4. **Low Level**:  
-   - **Concept**: A concept represented by data from four distinct modalities.
-   - Relations:
-     - `KnowledgePoint relatedTo Concept`
-       - KnowledgePoints are explained or supported by associated **Concepts**.
-     - `Concept relatedTo KnowledgePoint`
-       - Concepts can connect back to KnowledgePoints, forming bidirectional relationships.
-     - `Concept hasAnExplanation Explanation`
-       - A Concept can have explanatory resources to improve understanding.
-     - `Concept hasA[Video|Audio|Image|Explanation]`
-       - Concepts may be represented through multimedia formats, including videos, audios, images, or textual descriptions.
-         
-- **Explanation**: A textual description providing detail or clarification for concepts. 
-  - **Relations**:  
-    - `Explanation isAnExplanationOf Concept`  
-      - An **Explanation** is tied to a **Concept**, offering a text-based or logical description.  
-    - `Concept hasAnExplanation Explanation`  
-      - A **Concept** can be explained  through an **Explanation**.
-        
-- **Video**: A video representation with a URL associated with concepts.
-  - **Relations**:  
-    - `Video isAVideoOf Concept`  
-      - A **Video** is tied to a **Concept**, serving as a dynamic multimedia representation.  
-    - `Concept hasAVideo Video`  
-
-- **Audio**: An audio explanation in MP3 format associated with concepts.
-  - **Relations**:  
-    - `Audio isAnAudioOf Concept`  
-      - An **Audio** is tied to a **Concept**, providing auditory descriptions or explanations.  
-    - `Concept hasAnAudio Audio`  
-
-
-
-##### Data Definition
-| Data Type            | Definition                                                                                 | Mathematical Formalization                                |
-|----------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| Knowledge Point      | A Knowledge point is structured knowledge unit within a discipline, serving as key node connecting related concepts, exercises, and other knowledge points. | KP = \{ id, name, associated\_concepts, associated\_knowledge_points, associated\_exercises  \}        |
-| Multimodal Concept   | A concept represented by data from four distinct modalities.                              | MC = \{ id, name,  associated\_knowledge\_points,  associated\_Explanation, associated\_Image, associated\_Video, associated\_Audio, associated\_Exercise \}|
-| Subject              | A high-level category that groups related knowledge points.                               | S = \{ id, name, associated\_knowledge\_points \}  |
-| Explanation          | A textual description providing detail or clarification for concepts.                    |  T = \{ id, text\_content, associated\_concepts\}                         |
-| Image                | A visual representation in PNG format associated with concepts.                         |  I = \{ id, name, associated\_concepts \}                            |
-| Video                | A video representation with a URL associated with concepts.                        |  V = \{ id, url, associated\_concepts \}                                   |
-| Audio                | An audio explanation in MP3 format associated with concepts.                            |  A = \{ id, name, associated\_concepts \}                           |
-| Exercise             | Some problems with a URL associated with knowledge points.        | E = \{ id, url, associated\_knowledge\_point \}    |
 ##### SPARQL Endpoint Url and Usage Instructions
 We have open-sourced the RDF data of EduMKG on Zenodo and provided an automation script for converting JSON to RDF format in this code repository. You can execute the script by following the steps below:
 
