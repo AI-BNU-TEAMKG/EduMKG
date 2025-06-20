@@ -18,9 +18,10 @@ This repository contains the models and datasets described in our paper, `EduMKG
 To validate the alignment quality, we randomly sampled 100 multimodal concepts and asked 5 volunteers to assess them. The quantitative results will be added to the paper.
 | Modality       | Volunteer 1 | Volunteer 2 | Volunteer 3 | Volunteer 4 | Volunteer 5 | Average Score | 
 |---------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------------|
-| Text + Audio       | 89              | 92              | 88              | 91              | 90              | 90.0             | 
-| Video              | 83              | 85              | 86              | 84              | 82              | 84.0             | 
+| Text               | 89              | 92              | 88              | 91              | 90              | 90.0             | 
 | Image              | 87              | 89              | 88              | 90              | 88              | 88.4             |
+| Video              | 83              | 85              | 86              | 84              | 82              | 84.0             | 
+| Audio              | 89              | 92              | 88              | 91              | 90              | 90.0             | 
 
 Key Details:  
 - Volunteer Feedback: Each volunteer rated the alignment quality of multimodal concepts on a scale of 0 to 100.  
