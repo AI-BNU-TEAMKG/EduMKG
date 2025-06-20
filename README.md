@@ -106,7 +106,7 @@ python rdf.py
   ```
   Example 2
    ```sparql
-   # Query the concept of “细胞” corresponding to its explanation
+   # Query the concept of “上臂骨骼肌” corresponding to its explanation
    PREFIX ex: <http://v1.edumkg.org/>
    SELECT ?explanation
    WHERE {
