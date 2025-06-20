@@ -112,7 +112,7 @@ python rdf.py
    WHERE {
    ?concept a ex:Concept .
    ?concept ex:hasAnExplanation ?explanation .
-   FILTER(CONTAINS(STR(?concept), ENCODE_FOR_URI("细胞")))
+   FILTER(CONTAINS(STR(?concept), ENCODE_FOR_URI("上臂骨骼肌")))
    }
    ```
 #### Future Work
