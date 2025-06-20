@@ -15,6 +15,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 
 
 #### Validation Results for Alignment Quality
+To validate the alignment quality, we randomly sampled 100 multimodal concepts and asked 5 volunteers to assess them. The quantitative results are available in our GitHub repository and will be added to the paper.
 | Modality       | Volunteer 1 | Volunteer 2 | Volunteer 3 | Volunteer 4 | Volunteer 5 | Average Score | 
 |---------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------------|
 | Text + Audio       | 89              | 92              | 88              | 91              | 90              | 90.0             | 
