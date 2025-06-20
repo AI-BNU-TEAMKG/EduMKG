@@ -20,6 +20,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 | Text + Audio       | 89              | 92              | 88              | 91              | 90              | 90.0             | 98               |
 | Video              | 83              | 85              | 86              | 84              | 82              | 84.0             | 95               |
 | Image              | 87              | 89              | 88              | 90              | 88              | 88.4             | 97               |
+
 Key Details:  
 - Volunteer Feedback: Each volunteer rated the alignment quality of multimodal concepts on a scale of 0 to 100.  
 - Average Score: Arithmetic mean of scores from five volunteers.  
