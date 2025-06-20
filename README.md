@@ -76,7 +76,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 | Image                | A visual representation in PNG format associated with concepts.                         |  I = \{ id, name, associated\_concepts \}                            |
 | Video                | A video representation with a URL associated with concepts.                        |  V = \{ id, url, associated\_concepts \}                                   |
 | Audio                | An audio explanation in MP3 format associated with concepts.                            |  A = \{ id, name, associated\_concepts \}                           |
-| Exercise             | A task or problem with a URL associated with knowledge points.        | E = \{ id, url, associated\_knowledge\_point \}    |
+| Exercise             | Some problems with a URL associated with knowledge points.        | E = \{ id, url, associated\_knowledge\_point \}    |
 ##### SPARQL Endpoint Url and Usage Instructions
 We have open-sourced the RDF data of EduMKG on Zenodo and provided an automation script for converting JSON to RDF format in this code repository. You can execute the script by following the steps below:
 
