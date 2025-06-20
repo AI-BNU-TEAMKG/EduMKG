@@ -109,7 +109,7 @@ def convert_json_to_rdf_xml(json_file_path, rdf_file_path):
 
 
 if __name__ == '__main__':
-    input_json_file = r"C:\Users\Administrator\Desktop\投稿论文\public\Dataset\EduMKG\RDF\Triples.json"
-    output_rdf_file = r"C:\Users\Administrator\Desktop\投稿论文\public\Dataset\EduMKG\RDF\output.rdf"
+    input_json_file = 
+    output_rdf_file = 
 
     convert_json_to_rdf_xml(input_json_file, output_rdf_file)
