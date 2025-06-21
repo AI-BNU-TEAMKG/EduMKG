@@ -9,6 +9,8 @@ This repository contains the models and datasets described in our paper, `EduMKG
 2. We have open-sourced **an automation script for converting JSON  to RDF format in this code repository**.
 3. We have provided **a detailed explanation of the ontology design.**
 4. We have released **a SPARQL endpoint** and provided **basic usage examples**.
+5. We have released the **schema** of EduMKG.
+6. We have released the **validation results for alignment quality**.
 
 #### EduMKG ontology
 ![ontology](https://github.com/user-attachments/assets/8e768d4d-f968-4cbe-84ca-6b14fccbe26c)
