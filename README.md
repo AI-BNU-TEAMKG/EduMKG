@@ -4,7 +4,6 @@ EduMKG is a multimodal educational knowledge graph dataset that covers natural s
 This repository contains the models and datasets described in our paper, `EduMKG: A Multimodal Knowledge Graph for Education with Text, Image, Video and Audio`
 
 #### 🎯🎯🎯Recent Update for EduMKG 
-**We sincerely thank all the reviewers for their valuable guidance on our work**
 1. We have open-sourced the **RDF data of EduMKG (following IRI standards)** on Zenodo at https://zenodo.org/records/15694552.
 2. We have open-sourced **an automation script for converting JSON  to RDF format in this code repository**.
 3. We have released **a SPARQL endpoint** and provided **basic usage examples** in this code repository.
