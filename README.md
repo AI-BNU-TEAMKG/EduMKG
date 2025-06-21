@@ -12,7 +12,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 5. We have released the **schema** of EduMKG.
 6. We have released the **validation results for alignment quality**.
 
-#### EduMKG ontology
+#### EduMKG Schema
 ![ontology](https://github.com/user-attachments/assets/8e768d4d-f968-4cbe-84ca-6b14fccbe26c)
 
 
