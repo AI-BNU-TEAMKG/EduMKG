@@ -7,10 +7,9 @@ This repository contains the models and datasets described in our paper, `EduMKG
 **We sincerely thank all the reviewers for their valuable guidance on our work**
 1. We have open-sourced the **RDF data of EduMKG (following IRI standards)** on Zenodo at https://zenodo.org/records/15694552.
 2. We have open-sourced **an automation script for converting JSON  to RDF format in this code repository**.
-3. We have provided **a detailed explanation of the ontology design.**
-4. We have released **a SPARQL endpoint** and provided **basic usage examples**.
-5. We have released the **schema** of EduMKG.
-6. We have released the **validation results for alignment quality**.
+3. We have released **a SPARQL endpoint** and provided **basic usage examples** in this code repository.
+4. We have released the **schema** of EduMKG in this code repository .
+5. We have released the **validation results for alignment quality** in this code repository.
 
 #### EduMKG Schema
 ![ontology](https://github.com/user-attachments/assets/8e768d4d-f968-4cbe-84ca-6b14fccbe26c)
