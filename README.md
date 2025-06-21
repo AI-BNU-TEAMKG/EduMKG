@@ -11,6 +11,7 @@ This repository contains the models and datasets described in our paper, `EduMKG
 5. We have released the **validation results for alignment quality** in this code repository.
 
 #### EduMKG Schema
+![image](https://github.com/user-attachments/assets/275d1029-607f-4afb-b84b-1d6cefc0d6a9)
 
 
 
