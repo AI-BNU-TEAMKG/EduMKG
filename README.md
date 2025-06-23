@@ -1,4 +1,5 @@
 
+![EduMKG](https://github.com/user-attachments/assets/2114858f-7a23-45bb-b8de-f84900fcecb6)
 <div align="center">
 <img src=https://github.com/user-attachments/assets/88a5045b-be96-47f4-9f2c-eb7819f817cd)
 >
