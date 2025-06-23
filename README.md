@@ -6,7 +6,7 @@
 # EduMKG: A Multimodal Knowledge Graph for Education with Text, Video, Image and Audio
 
 
-[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.15694552.svg)](https://doi.org/10.5281/zenodo.15694552) [![GitHub](https://img.shields.io/badge/EduMKG-grey?logo=github)](https://github.com/AI-BNU-TEAMKG/EduMKG)  [![SPARQL](https://img.shields.io/badge/SPARQL-Endpoint-blueviolet.svg?logo=database)](https://edumkg.lutong.space/#/) [![EduMKG-Tools](https://img.shields.io/badge/Tools-Python%2C%20EduMKG.svg?logo=wrench)](https://github.com/AI-BNU-TEAMKG/EduMKG-Python-Library)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.15694552.svg)](https://doi.org/10.5281/zenodo.15694552)  [![SPARQL](https://img.shields.io/badge/SPARQL-Endpoint-blueviolet.svg?logo=database)](https://edumkg.lutong.space/#/) [![Tool](https://img.shields.io/badge/Tool-EduMKG-blue.svg?logo=python)](https://github.com/your-username/EduMKG)(https://github.com/AI-BNU-TEAMKG/EduMKG-Python-Library) [![GitHub](https://img.shields.io/badge/EduMKG-grey?logo=github)](https://github.com/AI-BNU-TEAMKG/EduMKG)
 
 EduMKG is a multimodal educational knowledge graph dataset that covers natural sciences (biology, physics, and chemistry) in middle and high school education. It includes multimodal concepts covering text, images, videos, and audio, as well as knowledge points and exercises extracted from curriculum standards and MOOCs. EduMKG comprises 34,630 multimodal concepts and 403,400 triples, making it a vital resource for research in multimodal educational applications.
 
