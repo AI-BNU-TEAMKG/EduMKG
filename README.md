@@ -1,6 +1,7 @@
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/98ccd63b-74c7-48a2-8f2d-1d9cfcb14411">
+<img src=https://github.com/user-attachments/assets/88a5045b-be96-47f4-9f2c-eb7819f817cd)
+>
 </div>
 
 # EduMKG: A Multimodal Knowledge Graph for Education with Text, Video, Image and Audio
