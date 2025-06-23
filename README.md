@@ -1,3 +1,4 @@
+![EduMKG](https://github.com/user-attachments/assets/1fbe3b96-c6b4-4733-803e-bf65a6646e79)
 ### EduMKG: A Multimodal Knowledge Graph for Education with Text, Video, Image and Audio
 EduMKG is a multimodal educational knowledge graph dataset that covers natural sciences (biology, physics, and chemistry) in middle and high school education. It includes multimodal concepts covering text, images, videos, and audio, as well as knowledge points and exercises extracted from curriculum standards and MOOCs. EduMKG comprises 34,630 multimodal concepts and 403,400 triples, making it a vital resource for research in multimodal educational applications.
 
