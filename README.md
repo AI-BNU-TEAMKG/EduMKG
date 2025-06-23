@@ -4,7 +4,7 @@
 </div>
 
 # EduMKG: A Multimodal Knowledge Graph for Education with Text, Video, Image and Audio
----
+
 
 [![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.1234567-blue.svg?logo=zenodo)](https://zenodo.org/records/15694552) [![GitHub](https://img.shields.io/badge/GitHub-Your--Project--Name-grey?logo=github)](https://github.com/AI-BNU-TEAMKG/EduMKG)
 
