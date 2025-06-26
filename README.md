@@ -41,9 +41,7 @@ Key Details:
 - Average Score: Arithmetic mean of scores from five volunteers.  
 
 
-##### SPARQL Endpoint Url and Usage Instructions
-We have open-sourced the RDF data of EduMKG on Zenodo and provided an automation script for converting JSON to RDF format in this code repository. You can execute the script by following the steps below:
-
+##### An automation script for converting JSON to RDF format
 1. Install `rdflib`  
 ```shell  
 pip install rdflib  
@@ -53,7 +51,10 @@ pip install rdflib
 ```python  
 python rdf.py  
 ```
-3. Accessing the SPARQL Endpoint and Performing Queries: We provide an example for reference.  
+
+##### SPARQL Endpoint Url and Usage Instructions
+We have open-sourced the RDF data of EduMKG on Zenodo and provided an automation script for converting JSON to RDF format in this code repository. You can execute the script by following the steps below:
+Accessing the SPARQL Endpoint and Performing Queries: We provide an example for reference.  
 * Access the [Apache Jena Fuseki UI](https://edumkg.lutong.space/#/).  
 * Enter the username and password: `user`, `userPassword`.  
 * Example usage:
@@ -79,6 +80,8 @@ python rdf.py
    FILTER(CONTAINS(STR(?concept), ENCODE_FOR_URI("上臂骨骼肌")))
    }
    ```
+
+   
 
 #### Citation
 ```
